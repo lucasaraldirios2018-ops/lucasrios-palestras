@@ -7,7 +7,7 @@ Site estático (HTML + CSS + JS), sem build. Pronto para GitHub + Vercel.
 1. **WhatsApp** — abra `script.js` e preencha `WHATSAPP_NUMERO` (ex.: `"5545999998888"`).
    Assim todos os botões abrem o WhatsApp com a mensagem já escrita.
    Sem o número, o site usa o link wa.me/message do Instagram e copia a mensagem para o visitante colar.
-2. **Domínio** — troque `SEU-DOMINIO.com.br` em `index.html`, `robots.txt` e `sitemap.xml`.
+2. **Domínio** — o site usa palestras.lucasrioshipnoterapeuta.com (CNAME no Cloudflare apontando para a Vercel, proxy desligado).
 3. **Fotos** — as imagens em `img/` foram recortadas de prints do Instagram. Substitua pelos
    arquivos originais (mesmo nome) para ficar com qualidade máxima. Tamanho ideal: até 1600 px de largura, JPG ~80%.
 
